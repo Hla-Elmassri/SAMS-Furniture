@@ -1,0 +1,374 @@
+<html  class="scroll-smooth">
+    <head>
+        <title>SAMS Furniture</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+<body>
+    
+
+        <header class="w-full h-16 bg-[#2a422e] px-20  flex flex-row justify-between items-center shadow-lg fixed top-0 left-0  z-[999] text-white font-normal">
+        <div class="logo">
+        <img src="image/logo.png"
+     alt="Logo"
+     class="h-12 md:h-14 w-auto hover:scale-105 transition duration-300">
+        </div><!-- end logo -->
+
+        <nav class=" hidden md:flex "> 
+            <ul class="flex gap-6 ">
+                <li><a href="#" class=" hover:text-[#ad8351]">  Home</a></li>
+                <li> <a href="#" class="hover:text-[#ad8351]">Services</a></li>
+                <li> <a href="#" class="hover:text-[#ad8351]">Our Team</a></li>
+                <li> <a href="#" class="hover:text-[#ad8351]">Our Work</a></li>
+                <li> <a href="#" class="hover:text-[#ad8351]">Contact Us</a></li>
+            </ul>
+        </nav>
+<a href="#collection"
+   class="hidden md:flex items-center gap-3 px-8 py-3 bg-[#2a422e] text-white font-semibold rounded-full border-2 border-[#ad8351] shadow-lg hover:bg-[#ad8351] hover:border-[#ad8351] hover:shadow-2xl hover:scale-105 transition-all duration-300">
+    <i class="fas fa-couch"></i>
+    Explore Collection
+</a>
+
+
+<!-- Mobile Menu Icon -->
+<button id="menu-btn" class="md:hidden text-3xl">
+<i class="fas fa-bars"></i>
+</button>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden fixed  top-16 right-0 w-full bg-[#2a422e] text-white flex flex-col items-center gap-6 py-6 md:hidden ">
+
+<a href="#" class="hover:text-[#ad8351]">Home</a>
+<a href="#" class="hover:text-[#ad8351]">Service</a>
+<a href="#" class="hover:text-[#ad8351]">Our Team</a>
+<a href="#" class="hover:text-[#ad8351]">Our Work</a>
+<a href="#" class="hover:text-[#ad8351]">Contact Us</a>
+<a href="#collection"
+   class="flex items-center gap-3 px-8 py-3 bg-[#ad8351] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+    <i class="fas fa-couch"></i>
+    Explore Collection
+</a>
+</div>
+    
+    </header> 
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
+        <main class="mt-10">
+           
+<section class="hero min-h-screen bg-[#ede6dc] flex items-center justify-center">
+    <div class="container mx-auto flex flex-wrap gap-10 px-6 md:px-10">
+        <div class="left-hero w-full md:w-full lg:w-[40%] flex flex-col justify-center">
+            <h1 class="px-[10px] text-4xl font-bold text-[#3D433A] leading-snug md:text-6xl lg:text-6xl xl:text-6xl  ">
+                Bring <span class="text-[#818F75] font-semibold">Comfort and Style</span> to Your Home
+            </h1>
+            <p class="font-normal py-6 md:py-10 text-[#6B6F63] text-lg md:text-xl leading-relaxed mt-6">
+                Discover high-quality furniture designed to make your living space more elegant, functional, and inviting.
+            </p>
+            <ul class=" flex-col lg:flex justify-between mb-6 md:mb-10 text-[#6B6F63] ">
+                <li class="font-semibold"><i class="fa-solid fa-check px-2 text-xl text-[#2a422e]"></i>10+ Years Experience</li>
+                <li  class="font-semibold"><i class="fa-solid fa-check px-2 text-xl text-[#2a422e]"></i>+500 Clients</li>
+                <li  class="font-semibold"><i class="fa-solid fa-check px-2 text-xl text-[#2a422e]"></i>Professional Team</li>
+            </ul>
+
+            <div class="but flex flex-row gap-6 md:gap-[30px]">
+                
+                <button class="w-[180px] md:w-[180px] h-[45px] md:h-[50px] bg-[#53614f] text-white rounded-lg hover:bg-[#66735f] hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    Explore Our Collection
+                </button>
+                <button class="w-[180px] md:w-[180px] h-[45px] md:h-[50px] bg-white text-[#53614f] rounded-lg hover:bg-[#53614f] hover:text-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ">
+                    <i class="fa-solid fa-play px-2"></i>Watch Showcase
+                </button>
+            </div><!-- end but -->
+        </div><!-- end left-hero -->
+
+        <div class="right-hero hidden lg:block relative w-full lg:w-[50%] mt-[50px]">
+            <div class="main-right h-[400px] w-full relative ">
+                <img src="image/hero.jpg" alt="Hero Image" class="w-full h-full object-cover rounded-3xl shadow-xl  hover:scale-110 transition duration-300">
+
+                <div class="secand-right absolute bottom-0 left-5 h-20 w-[200px] bg-[#F0F4E3] rounded-3xl px-4 flex items-center shadow-lg ">
+                    <div class="icon-circle h-10 w-10 rounded-full flex items-center justify-center bg-[#818F75] mr-3">
+                        <i class="fas fa-users text-white"></i>
+                    </div><!-- end icon-circle -->
+                    <div class="text-left ">
+                        <p class="font-normal text-[#3D433A] text-base">Happy Clients</p>
+                        <p class="font-bold text-[#2a422e] text-lg">+500</p>
+                    </div><!-- end text-left -->
+                </div><!-- end secand-right -->
+            </div><!-- end main-right -->
+        </div><!-- end right-hero -->
+
+    </div><!-- end container -->
+</section><!-- end hero -->
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <section class="service min-h-screen bg-[#ede6dc] pb-20">
+  <div class="service-tittle max-w-3xl mx-auto text-center mb-16">
+    <h1 class="font-bold text-5xl text-[#2a422e] pb-5">Our Integrated Services</h1>
+    <p class="font-normal text-xl text-[#6B6F63]">We offer complete furniture and interior design services to create stylish, comfortable, and functional living spaces.
+</p>
+    <div class="line border-2 border-[#818F75] w-[150px] sm:w-[200px] md:w-[300px] mx-auto my-5"></div>
+  </div>
+
+  <div class="service-container  max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    
+    <!-- service-card 1 -->
+    <div class="service-card group border-2 rounded-2xl border-[#818F75] p-6 flex flex-col gap-4 hover:border-[#2a422e] hover:scale-105 hover:shadow-2xl transition duration-300">
+      <div class="seq-icon h-[60px] w-[60px] bg-[#818F75] rounded-xl p-2 flex items-center justify-center group-hover:bg-[#2a422e] transition duration-300">
+        <i class="fas fa-couch text-white text-2xl group-hover:text-[#ede6dc] transition duration-300"></i>
+      </div>
+      <h2 class="font-bold text-2xl text-[#2a422e]">Interior Design</h2>
+      <p class="text-[#6B6F63] px-4 py-2 text-base leading-relaxed">We create functional and stylish living spaces tailored to your taste and lifestyle.</p>
+      <ul class="mt-auto mb-4 text-sm md:text-base">
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Space Planning & Layout.</li>
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Color Palette Consultation.</li>
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Customized Furniture Selection.</li>
+      </ul>
+    </div>
+
+    <!-- service-card 2 -->
+     <div class="service-card group border-2 rounded-2xl border-[#818F75] p-6 flex flex-col gap-4 hover:border-[#2a422e] hover:scale-105 hover:shadow-2xl transition duration-300">
+      <div class="seq-icon h-[60px] w-[60px] bg-[#818F75] rounded-xl p-2 flex items-center justify-center group-hover:bg-[#2a422e] transition duration-300">
+        <i class="fas fa-couch text-white text-2xl group-hover:text-[#ede6dc] transition duration-300"></i>
+      </div>
+      <h2 class="font-bold text-2xl text-[#2a422e]">Custom Furniture</h2>
+      <p class="text-[#6B6F63] px-4 py-2 text-base leading-relaxed">High-quality furniture made to fit perfectly in your home with unique style and durability.</p>
+      <ul class="mb-4 text-sm md:text-base"> 
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Tailored to Your Room Dimensions.</li>
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Premium Materials & Finishes.</li> 
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Personalized Style Options.</li> 
+        </ul>
+    </div>
+
+
+    <!-- service-card 3 -->
+    <div class="service-card group border-2 rounded-2xl border-[#818F75] p-6 flex flex-col gap-4 hover:border-[#2a422e] hover:scale-105 hover:shadow-2xl transition duration-300">
+      <div class="seq-icon h-[60px] w-[60px] bg-[#818F75] rounded-xl p-2 flex items-center justify-center group-hover:bg-[#2a422e] transition duration-300">
+        <i class="fas fa-couch text-white text-2xl group-hover:text-[#ede6dc] transition duration-300"></i>
+      </div>
+      <h2 class="font-bold text-2xl text-[#2a422e]">Furniture Maintenance</h2>
+      <p class="text-[#6B6F63] px-4 py-2 text-base leading-relaxed">Keep your furniture in perfect condition with professional maintenance and care services.</p>
+      <ul class="mt-auto mb-4 text-sm md:text-base">
+       <li><i class="fas fa-check px-2 text-[#818F75]"></i>Repair & Restoration.</li>
+        <li><i class="fas fa-check px-2 text-[#818F75]"></i>Material Protection Tips.</li>
+         <li><i class="fas fa-check px-2 text-[#818F75]"></i>Long-lasting Quality.</li> </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section class="icons py-12 bg-[#53614f] ">
+                   
+<div class="icons-container grid grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto text-center gap-8 place-items-center px-6">
+
+<div class="icon-card font-bold text-4xl md:text-6xl text-[#ede6dc] hover:scale-110 transition duration-300">
+    <i class="fas fa-users text-3xl mb-4"></i>
+<h1 class="pb-[10px]">+500</h1>
+<p class="text-base md:text-xl">Clients Worldwide</p>
+</div><!-- end icon-card -->
+
+<div class="icon-card font-bold text-4xl md:text-6xl text-[#ede6dc] hover:scale-110 transition duration-300">
+    
+<i class="fas fa-truck text-3xl mb-4"></i>
+
+<h1 class="pb-[10px]">+1500</h1>
+<p class="text-base md:text-xl">Projects Completed</p>
+</div><!-- end icon-card -->
+
+<div class="icon-card font-bold text-4xl md:text-6xl text-[#ede6dc] hover:scale-110 transition duration-300">
+    <i class="fas fa-couch text-3xl mb-4"></i>
+
+<h1 class="pb-[10px]">+800</h1>
+<p class="text-base md:text-xl">Custom Pieces</p>
+</div><!-- end icon-card -->
+
+<div class="icon-card font-bold text-4xl md:text-6xl text-[#ede6dc] hover:scale-110 transition duration-300">
+    <i class="fas fa-award text-3xl mb-4"></i>
+<h1 class="pb-[10px]">+10</h1>
+<p class="text-base md:text-xl">Years of Experience</p>
+</div><!-- end icon-card -->
+
+</div><!-- end icons-container -->
+
+</section><!-- end section icons -->
+
+<!--   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+ <section class="team min-h-screen bg-[#ede6dc] pb-[30px] ">
+    <h1 class="team-tittle font-bold text-5xl text-[#2a422e] text-center pt-[80px] pb-[30px]">Our Creative Team</h1>
+    <p class="team-p text-[#6B6F63] text-center pb-[40px]  text-xl">An elite group of the best furniture design and delivery experts.</p>
+  
+   <div class="w-[250px] h-[3px] bg-[#818F75] mx-auto rounded-full"></div>
+    
+    <div class="team-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-10 mt-[40px]">
+
+        <!-- team-card 1 -->
+       <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl ">
+            <div class="team-img relative w-full">
+                <img src="image/team1.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+
+                <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                   <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-twitter hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-linkedin hover:text-[#ad8351] transition"></i>
+                </div><!-- end team-img-overlay -->
+            </div><!-- end team-img -->
+            <h3 class="team-name text-center pt-8 text-[#2a422e] font-semibold">Rasha Basel</h3>
+            <p class="team-position text-center text-[#818F75]">Design Specialist</p>
+            <p class="team-desc text-center text-[#6B6F63]  pb-[10px]">8 years of experience creating elegant and functional living spaces</p>
+        </div><!-- end team-card -->
+
+        <!-- team-card 2 -->
+        <div class="team-card w-full group min-h-[320px] hover:scale-105  hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl">
+            <div class="team-img relative w-full">
+                 <img src="image/team2.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+
+                <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-twitter hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-linkedin hover:text-[#ad8351] transition"></i>
+                </div><!-- end team-img-overlay -->
+            </div><!-- end team-img -->
+            <h3 class="team-name text-center pt-8 text-[#2a422e] font-semibold">Noha Khaled</h3>
+            <p class="team-position text-center text-[#818F75]">Furniture Consultant</p>
+            <p class="team-desc text-center text-[#6B6F63]  pb-[10px]">8 years of experience creating elegant and functional living spaces</p>
+        </div><!-- end team-card -->
+
+        <!-- team-card 3 -->
+       <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl">
+            <div class="team-img relative w-full">
+                 <img src="image/team3.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+
+                <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-twitter hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-linkedin hover:text-[#ad8351] transition"></i>
+                </div><!-- end team-img-overlay -->
+            </div><!-- end team-img -->
+            <h3 class="team-name text-center pt-8 text-[#2a422e] font-semibold">Hamza El-massri</h3>
+            <p class="team-position text-center text-[#818F75]">Furniture Engineer</p>
+            <p class="team-desc text-center text-[#6B6F63]  pb-[10px]">12 years of experience in custom furniture production</p>
+        </div><!-- end team-card -->
+
+        <!-- team-card 4 -->
+        <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl">
+            <div class="team-img relative w-full">
+                 <img src="image/team4.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+
+                <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-twitter hover:text-[#ad8351] transition"></i>
+                    <i class="fab fa-linkedin hover:text-[#ad8351] transition"></i>
+                </div><!-- end team-img-overlay -->
+            </div><!-- end team-img -->
+            <h3 class="team-name text-center pt-8 text-[#2a422e] font-semibold">Maha Jaber</h3>
+            <p class="team-position text-center text-[#818F75]">Project Manager</p>
+            <p class="team-desc text-center text-[#6B6F63] pb-[10px]">10 years coordinating furniture design and installation projects</p>
+        </div><!-- team-card -->
+
+    </div><!-- end team-container -->
+</section><!-- end section team -->
+</main>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<footer class="bg-[#53614f]  ">
+    
+    <div class="footer-container  max-w-6xl mx-auto  p-6 flex flex-col  lg:flex-row justify-between items-start gap-16 ">
+
+        <!-- right-footer -->
+      <div class="right-footer w-full lg:w-1/2 rounded-2xl mt-[40px]">
+         <form class="flex flex-col gap-6 border-2 border-[#ede6dc] rounded-2xl p-10"> 
+            <h2 class="text-4xl font-bold text-[#ede6dc]">Contact us</h2>
+             <input type="text" required placeholder="Your Name" class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300">
+              <input type="email" required placeholder="Email Address" class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300">
+               <textarea required placeholder="Your Message ...." rows="5" class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300"></textarea>
+                <button type="submit" class="bg-[#ede6dc] text-[#2a422e] font-semibold rounded-lg py-3 hover:bg-[#ad8351] hover:text-[#2a422e] hover:shadow-lg transition duration-300"> Send Message </button>
+
+         </form>
+        </div><!-- end right-footer -->
+
+
+        <!-- left-footer -->
+        <div class="left-footer w-full lg:w-1/2 mt-[40px]">
+ 
+            <h2 class="text-4xl font-bold text-[#ede6dc] mb-10">Contact Information</h2>
+
+            <ul class="space-y-6 text-[#ede6dc]">
+
+                <li class="flex items-start gap-3">
+                    <i class="fas fa-map-marker-alt text-xl text-[#ad8351]"></i>
+                    <div>
+                        <h4 class="font-bold text-lg">Address</h4>
+                        <p class="text-[#d6d0c7]">Cairo, Egypt</p>
+                    </div>
+                </li>
+
+                <li class="flex items-start gap-3">
+                    <i class="fas fa-phone text-xl text-[#ad8351]"></i>
+                    <div>
+                        <h4 class="font-bold text-lg">Phone</h4>
+                        <p class="text-[#d6d0c7]">+20 123 456 7890</p>
+                    </div>
+                </li>
+
+                <li class="flex items-start gap-3">
+                    <i class="fas fa-envelope text-xl text-[#ad8351]"></i>
+                    <div>
+                        <h4 class="font-bold text-lg">Email</h4>
+                        <p class="text-[#d6d0c7]">contact@samsfurniture.com</p>
+                    </div>
+                </li>
+
+            </ul>
+
+            <div class="right-footer-image h-[200px] w-full mt-8 ">
+                <img src="image/footer1.jpg" alt="Footer Image" class="w-full h-full object-cover rounded-3xl">
+            </div> <!-- right-footer-image -->
+        </div><!-- end left-footer -->
+    </div><!-- end footer-container -->
+
+   <hr class="border-[#ede6dc]  ">
+
+<div class="end-footer flex flex-col  md:flex-row md:justify-between items-center py-3 px-6">
+
+    <p class=" py-[20px] md:text-[#ede6dc] text-sm ">
+        © 2026 HLA EL-MASSRI. All rights reserved.
+    </p>
+
+    <div class="footer-icon flex gap-4 text-[#ede6dc]">
+        <a href="#">
+        <i class="fab fa-facebook w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A]  
+         hover:bg-[#ad8351] transition duration-300"></i> </a>
+ <a href="#">
+        <i class="fab fa-twitter w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] 
+        hover:bg-[#ad8351] transition duration-300"></i> </a>
+<a href="#">
+        <i class="fab fa-linkedin w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] 
+        hover:bg-[#ad8351] transition duration-300"></i></a>
+<a href="#">
+        <i class="fab fa-instagram w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] 
+        hover:bg-[#ad8351] transition duration-300"></i></a>
+
+    </div><!-- end footer-icon -->
+
+</div><!-- end end-footer -->
+</footer>
+
+
+
+
+<script>
+
+const menuBtn = document.getElementById("menu-btn");
+const mobileMenu = document.getElementById("mobile-menu");
+
+menuBtn.addEventListener("click", () => {
+mobileMenu.classList.toggle("hidden");
+});
+
+</script>
+
+
+  </body>      
+    
+</html>
+
