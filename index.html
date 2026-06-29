@@ -56,7 +56,7 @@
     
     </header> 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
-        <main class="mt-10">
+        <main class="mt-16">
  <section class="bg-[#ede6dc] flex items-center justify-center pt-20 py-6 min-h-[60vh] md:min-h-screen sm:py-10">
   <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 px-4 sm:px-6 lg:px-10">
 
@@ -136,8 +136,8 @@ hover:-translate-y-1 hover:shadow-xl active:scale-95 flex items-center justify-c
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
      <section class="service min-h-screen bg-[#ede6dc] pt-10 md:pt-0 pb-20">
   <div class="service-tittle max-w-3xl mx-auto text-center mb-16">
-    <h1 class="font-bold text-5xl text-[#2a422e] pb-5">Our Integrated Services</h1>
-    <p class="font-normal text-xl text-[#6B6F63]">We offer complete furniture and interior design services to create stylish, comfortable, and functional living spaces.
+    <h1 class="font-bold text-3xl sm:text-4xl lg:text-5xl text-[#2a422e] pb-5"> Our Integrated Services</h1>
+    <p class="font-normal text-base sm:text-lg lg:text-xl text-[#6B6F63] px-4">We offer complete furniture and interior design services to create stylish, comfortable, and functional living spaces.
 </p>
     <div class="line border-2 border-[#818F75] w-[150px] sm:w-[200px] md:w-[300px] mx-auto my-5"></div>
   </div>
@@ -227,13 +227,24 @@ hover:-translate-y-1 hover:shadow-xl active:scale-95 flex items-center justify-c
 </section><!-- end section icons -->
 
 <!--   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
- <section class="team min-h-screen bg-[#ede6dc] pb-[30px] ">
-    <h1 class="team-tittle font-bold text-5xl text-[#2a422e] text-center pt-[80px] pb-[30px]">Our Creative Team</h1>
-    <p class="team-p text-[#6B6F63] text-center pb-[40px]  text-xl">An elite group of the best furniture design and delivery experts.</p>
-  
-   <div class="w-[250px] h-[3px] bg-[#818F75] mx-auto rounded-full"></div>
-    
-    <div class="team-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-10 mt-[40px]">
+ <section class="team min-h-screen bg-[#ede6dc] pt-12 sm:pt-16 lg:pt-20 pb-8">
+
+    <div class="max-w-3xl mx-auto text-center mb-12">
+
+        <h1 class="font-bold text-3xl sm:text-4xl lg:text-5xl text-[#2a422e]">
+            Our Creative Team
+        </h1>
+
+        <p class="mt-4 text-base sm:text-lg lg:text-xl text-[#6B6F63] px-4">
+            An elite group of the best furniture design and delivery experts.
+        </p>
+
+        <div class="w-40 sm:w-56 lg:w-64 h-[3px] bg-[#818F75] mx-auto rounded-full mt-6"></div>
+
+    </div>
+
+    <div class="team-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-10">
+
 
         <!-- team-card 1 -->
        <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl ">
@@ -303,48 +314,78 @@ hover:-translate-y-1 hover:shadow-xl active:scale-95 flex items-center justify-c
 </section><!-- end section team -->
 </main>
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<footer class="bg-[#53614f]  ">
-    
-    <div class="footer-container  max-w-6xl mx-auto  p-6 flex flex-col  lg:flex-row justify-between items-start gap-16 ">
 
-        <!-- right-footer -->
-      <div class="right-footer w-full lg:w-1/2 rounded-2xl mt-[40px]">
-         <form class="flex flex-col gap-6 border-2 border-[#ede6dc] rounded-2xl p-10"> 
-            <h2 class="text-4xl font-bold text-[#ede6dc]">Contact us</h2>
-             <input type="text" required placeholder="Your Name" class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300">
-              <input type="email" required placeholder="Email Address" class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300">
-               <textarea required placeholder="Your Message ...." rows="5" class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300"></textarea>
-                <button type="submit" class="bg-[#ede6dc] text-[#2a422e] font-semibold rounded-lg py-3 hover:bg-[#ad8351] hover:text-[#2a422e] hover:shadow-lg transition duration-300"> Send Message </button>
+<footer class="bg-[#53614f]">
 
-         </form>
-        </div><!-- end right-footer -->
+    <div class="footer-container max-w-6xl mx-auto px-6 py-12 flex flex-col lg:flex-row gap-12">
 
+        <!-- Contact Form -->
+        <div class="w-full lg:w-1/2">
 
-        <!-- left-footer -->
-        <div class="left-footer w-full lg:w-1/2 mt-[40px]">
- 
-            <h2 class="text-4xl font-bold text-[#ede6dc] mb-10">Contact Information</h2>
+            <form class="flex flex-col gap-6 border-2 border-[#ede6dc] rounded-2xl p-5 sm:p-8 lg:p-10">
+
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#ede6dc]">
+                    Contact Us
+                </h2>
+
+                <input
+                    type="text"
+                    required
+                    placeholder="Your Name"
+                    class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300">
+
+                <input
+                    type="email"
+                    required
+                    placeholder="Email Address"
+                    class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300">
+
+                <textarea
+                    rows="5"
+                    required
+                    placeholder="Your Message..."
+                    class="border-2 border-[#818F75] rounded-lg px-4 py-3 text-[#2a422e] focus:outline-none focus:ring-2 focus:ring-[#ad8351] transition duration-300"></textarea>
+
+                <button
+                    type="submit"
+                    class="bg-[#ede6dc] text-[#2a422e] font-semibold rounded-lg py-3 hover:bg-[#ad8351] hover:shadow-lg transition duration-300">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Contact Information -->
+        <div class="w-full lg:w-1/2">
+
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#ede6dc] mb-8">
+                Contact Information
+            </h2>
 
             <ul class="space-y-6 text-[#ede6dc]">
 
-                <li class="flex items-start gap-3">
-                    <i class="fas fa-map-marker-alt text-xl text-[#ad8351]"></i>
+                <li class="flex items-start gap-4">
+                    <i class="fas fa-map-marker-alt text-xl text-[#ad8351] mt-1"></i>
+
                     <div>
                         <h4 class="font-bold text-lg">Address</h4>
                         <p class="text-[#d6d0c7]">Cairo, Egypt</p>
                     </div>
                 </li>
 
-                <li class="flex items-start gap-3">
-                    <i class="fas fa-phone text-xl text-[#ad8351]"></i>
+                <li class="flex items-start gap-4">
+                    <i class="fas fa-phone text-xl text-[#ad8351] mt-1"></i>
+
                     <div>
                         <h4 class="font-bold text-lg">Phone</h4>
                         <p class="text-[#d6d0c7]">+20 123 456 7890</p>
                     </div>
                 </li>
 
-                <li class="flex items-start gap-3">
-                    <i class="fas fa-envelope text-xl text-[#ad8351]"></i>
+                <li class="flex items-start gap-4">
+                    <i class="fas fa-envelope text-xl text-[#ad8351] mt-1"></i>
+
                     <div>
                         <h4 class="font-bold text-lg">Email</h4>
                         <p class="text-[#d6d0c7]">contact@samsfurniture.com</p>
@@ -353,37 +394,50 @@ hover:-translate-y-1 hover:shadow-xl active:scale-95 flex items-center justify-c
 
             </ul>
 
-            <div class="right-footer-image h-[200px] w-full mt-8 ">
-                <img src="image/footer1.jpg" alt="Footer Image" class="w-full h-full object-cover rounded-3xl">
-            </div> <!-- right-footer-image -->
-        </div><!-- end left-footer -->
-    </div><!-- end footer-container -->
+            <div class="mt-10 h-[170px] sm:h-[220px] overflow-hidden rounded-3xl">
 
-   <hr class="border-[#ede6dc]  ">
+                <img
+                    src="image/footer1.jpg"
+                    alt="Footer Image"
+                    class="w-full h-full object-cover hover:scale-105 transition duration-500">
 
-<div class="end-footer flex flex-col  md:flex-row md:justify-between items-center py-3 px-6">
+            </div>
 
-    <p class=" py-[20px] md:text-[#ede6dc] text-sm ">
-        © 2026 HLA EL-MASSRI. All rights reserved.
-    </p>
+        </div>
 
-    <div class="footer-icon flex gap-4 text-[#ede6dc]">
-        <a href="#">
-        <i class="fab fa-facebook w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A]  
-         hover:bg-[#ad8351] transition duration-300"></i> </a>
- <a href="#">
-        <i class="fab fa-twitter w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] 
-        hover:bg-[#ad8351] transition duration-300"></i> </a>
-<a href="#">
-        <i class="fab fa-linkedin w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] 
-        hover:bg-[#ad8351] transition duration-300"></i></a>
-<a href="#">
-        <i class="fab fa-instagram w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] 
-        hover:bg-[#ad8351] transition duration-300"></i></a>
+    </div>
 
-    </div><!-- end footer-icon -->
+    <hr class="border-[#ede6dc]/30">
 
-</div><!-- end end-footer -->
+    <!-- Bottom Footer -->
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 py-6 px-6">
+
+        <p class="text-[#ede6dc] text-sm text-center md:text-left">
+            © 2026 HLA EL-MASSRI. All rights reserved.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 text-[#ede6dc]">
+
+            <a href="#">
+                <i class="fab fa-facebook w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] hover:bg-[#ad8351] hover:scale-110 hover:-translate-y-1 transition-all duration-300"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-twitter w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] hover:bg-[#ad8351] hover:scale-110 hover:-translate-y-1 transition-all duration-300"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] hover:bg-[#ad8351] hover:scale-110 hover:-translate-y-1 transition-all duration-300"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram w-10 h-10 flex items-center justify-center rounded-full bg-[#3D433A] hover:bg-[#ad8351] hover:scale-110 hover:-translate-y-1 transition-all duration-300"></i>
+            </a>
+
+        </div>
+
+    </div>
+
 </footer>
 
 
