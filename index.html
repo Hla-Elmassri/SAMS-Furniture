@@ -1,15 +1,18 @@
 <html  class="scroll-smooth">
     <head>
+         <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>SAMS Furniture</title>
         <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     </head>
-<body>
+<body class="overflow-x-hidden">
     
 
-        <header class="w-full h-16 bg-[#2a422e] px-20  flex flex-row justify-between items-center shadow-lg fixed top-0 left-0  z-[999] text-white font-normal">
-        <div class="logo">
+        <header class="w-full h-16 bg-[#2a422e] px-4 sm:px-6 lg:px-10 xl:px-20 flex justify-between items-center shadow-lg fixed top-0 left-0 z-[999] text-white">
         <img src="image/logo.png"
      alt="Logo"
      class="h-12 md:h-14 w-auto hover:scale-105 transition duration-300">
@@ -54,54 +57,84 @@
     </header> 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
         <main class="mt-10">
-           
-<section class="hero min-h-screen bg-[#ede6dc] flex items-center justify-center">
-    <div class="container mx-auto flex flex-wrap gap-10 px-6 md:px-10">
-        <div class="left-hero w-full md:w-full lg:w-[40%] flex flex-col justify-center">
-            <h1 class="px-[10px] text-4xl font-bold text-[#3D433A] leading-snug md:text-6xl lg:text-6xl xl:text-6xl  ">
-                Bring <span class="text-[#818F75] font-semibold">Comfort and Style</span> to Your Home
-            </h1>
-            <p class="font-normal py-6 md:py-10 text-[#6B6F63] text-lg md:text-xl leading-relaxed mt-6">
-                Discover high-quality furniture designed to make your living space more elegant, functional, and inviting.
-            </p>
-            <ul class=" flex-col lg:flex justify-between mb-6 md:mb-10 text-[#6B6F63] ">
-                <li class="font-semibold"><i class="fa-solid fa-check px-2 text-xl text-[#2a422e]"></i>10+ Years Experience</li>
-                <li  class="font-semibold"><i class="fa-solid fa-check px-2 text-xl text-[#2a422e]"></i>+500 Clients</li>
-                <li  class="font-semibold"><i class="fa-solid fa-check px-2 text-xl text-[#2a422e]"></i>Professional Team</li>
-            </ul>
+ <section class="bg-[#ede6dc] flex items-center justify-center pt-20 py-6 min-h-[60vh] md:min-h-screen sm:py-10">
+  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 px-4 sm:px-6 lg:px-10">
 
-            <div class="but flex flex-row gap-6 md:gap-[30px]">
-                
-                <button class="w-[180px] md:w-[180px] h-[45px] md:h-[50px] bg-[#53614f] text-white rounded-lg hover:bg-[#66735f] hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                    Explore Our Collection
-                </button>
-                <button class="w-[180px] md:w-[180px] h-[45px] md:h-[50px] bg-white text-[#53614f] rounded-lg hover:bg-[#53614f] hover:text-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ">
-                    <i class="fa-solid fa-play px-2"></i>Watch Showcase
-                </button>
-            </div><!-- end but -->
-        </div><!-- end left-hero -->
+    <!-- LEFT -->
+    <div class="w-full lg:w-1/2 flex flex-col text-center lg:text-left">
 
-        <div class="right-hero hidden lg:block relative w-full lg:w-[50%] mt-[50px]">
-            <div class="main-right h-[400px] w-full relative ">
-                <img src="image/hero.jpg" alt="Hero Image" class="w-full h-full object-cover rounded-3xl shadow-xl  hover:scale-110 transition duration-300">
+      <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#3D433A] leading-snug">
+        Bring <span class="text-[#818F75] font-semibold">Comfort and Style</span> to Your Home
+      </h1>
 
-                <div class="secand-right absolute bottom-0 left-5 h-20 w-[200px] bg-[#F0F4E3] rounded-3xl px-4 flex items-center shadow-lg ">
-                    <div class="icon-circle h-10 w-10 rounded-full flex items-center justify-center bg-[#818F75] mr-3">
-                        <i class="fas fa-users text-white"></i>
-                    </div><!-- end icon-circle -->
-                    <div class="text-left ">
-                        <p class="font-normal text-[#3D433A] text-base">Happy Clients</p>
-                        <p class="font-bold text-[#2a422e] text-lg">+500</p>
-                    </div><!-- end text-left -->
-                </div><!-- end secand-right -->
-            </div><!-- end main-right -->
-        </div><!-- end right-hero -->
+      <p class="py-5 sm:py-6 text-sm sm:text-lg md:text-xl text-[#6B6F63] leading-relaxed">
+        Discover high-quality furniture designed to make your living space more elegant, functional, and inviting.
+      </p>
 
-    </div><!-- end container -->
-</section><!-- end hero -->
+      <!-- UL (FIXED MOBILE SPACING) -->
+    <ul class="flex flex-col gap-4 sm:gap-3 text-[#6B6F63] mb-6">
 
+        <li class="font-semibold flex items-center justify-center lg:justify-start text-sm sm:text-base">
+          <i class="fa-solid fa-check px-2 text-[#2a422e]"></i>10+ Years Experience
+        </li>
+
+        <li class="font-semibold flex items-center justify-center lg:justify-start text-sm sm:text-base">
+          <i class="fa-solid fa-check px-2 text-[#2a422e]"></i>+500 Clients
+        </li>
+
+        <li class="font-semibold flex items-center justify-center lg:justify-start text-sm sm:text-base">
+          <i class="fa-solid fa-check px-2 text-[#2a422e]"></i>Professional Team
+        </li>
+
+      </ul>
+
+      <!-- BUTTONS (improved touch UX) -->
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start">
+
+        <!-- primary button -->
+        <button class="relative overflow-hidden w-full sm:w-[180px] h-[45px] bg-[#53614f] text-white rounded-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl active:scale-95">
+          <span class="relative z-10">Explore Our Collection</span>
+          <span class="absolute inset-0 bg-[#66735f] scale-x-0 hover:scale-x-100 origin-left transition-transform duration-300"></span>
+        </button>
+
+        <!-- secondary button (FIXED like first style) -->
+       <button class="w-full sm:w-[180px] h-[45px] bg-white text-[#53614f] rounded-lg 
+transition-all duration-300 hover:bg-[#53614f] hover:text-white
+hover:-translate-y-1 hover:shadow-xl active:scale-95 flex items-center justify-center gap-2">
+  <i class="fa-solid fa-play"></i>
+  Watch Showcase
+</button>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="w-full lg:w-1/2 hidden lg:block">
+      <div class="relative h-[300px] md:h-[400px] w-full">
+
+        <img src="image/hero.jpg"
+             class="w-full h-full object-cover rounded-3xl shadow-xl hover:scale-105 transition duration-300">
+
+        <div class="absolute bottom-4 left-4 w-[200px] bg-[#F0F4E3] rounded-3xl px-4 py-3 flex items-center shadow-lg">
+
+          <div class="h-10 w-10 rounded-full flex items-center justify-center bg-[#818F75] mr-3">
+            <i class="fas fa-users text-white"></i>
+          </div>
+
+          <div>
+            <p class="text-[#3D433A] text-sm">Happy Clients</p>
+            <p class="font-bold text-[#2a422e] text-lg">+500</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-            <section class="service min-h-screen bg-[#ede6dc] pb-20">
+     <section class="service min-h-screen bg-[#ede6dc] pt-10 md:pt-0 pb-20">
   <div class="service-tittle max-w-3xl mx-auto text-center mb-16">
     <h1 class="font-bold text-5xl text-[#2a422e] pb-5">Our Integrated Services</h1>
     <p class="font-normal text-xl text-[#6B6F63]">We offer complete furniture and interior design services to create stylish, comfortable, and functional living spaces.
@@ -109,7 +142,7 @@
     <div class="line border-2 border-[#818F75] w-[150px] sm:w-[200px] md:w-[300px] mx-auto my-5"></div>
   </div>
 
-  <div class="service-container  max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="service-container  max-w-screen-xl mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
     
     <!-- service-card 1 -->
@@ -205,7 +238,7 @@
         <!-- team-card 1 -->
        <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl ">
             <div class="team-img relative w-full">
-                <img src="image/team1.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+                <img src="image/team1.jpg" alt="team1" class="w-full max-w-full h-[250px] object-cover object-top rounded-2xl ">
 
                 <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
                    <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
@@ -221,7 +254,7 @@
         <!-- team-card 2 -->
         <div class="team-card w-full group min-h-[320px] hover:scale-105  hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl">
             <div class="team-img relative w-full">
-                 <img src="image/team2.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+                 <img src="image/team2.jpg" alt="team1" class="w-full max-w-full h-[250px] object-cover object-top rounded-2xl">
 
                 <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
                     <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
@@ -237,7 +270,7 @@
         <!-- team-card 3 -->
        <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl">
             <div class="team-img relative w-full">
-                 <img src="image/team3.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+                 <img src="image/team3.jpg" alt="team1" class="w-full max-w-full h-[250px] object-cover object-top rounded-2xl ">
 
                 <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
                     <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
@@ -253,7 +286,7 @@
         <!-- team-card 4 -->
         <div class="team-card w-full group min-h-[320px] hover:scale-105 hover:shadow-2xl transition duration-300 hover:border-[#818F75] border-2  rounded-2xl">
             <div class="team-img relative w-full">
-                 <img src="image/team4.jpg" alt="team1" class="w-full h-[250px] object-cover object-top rounded-t-2xl ">
+                 <img src="image/team4.jpg" alt="team1" class="w-full max-w-full h-[250px] object-cover object-top rounded-2xl">
 
                 <div class="team-img-overlay bg-[#2a422e]/25 backdrop-blur-[1px] rounded-2xl absolute text-4xl inset-0 flex items-center justify-center text-white font-bold gap-6 opacity-0 group-hover:opacity-100 transition duration-300">
                     <i class="fab fa-facebook hover:text-[#ad8351] transition"></i>
